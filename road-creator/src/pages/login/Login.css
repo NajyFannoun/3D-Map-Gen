@@ -1,0 +1,137 @@
+/**
+ * Project: 3D Map Generator
+ * Description: A web app for creating and exporting 3D maps with customizable objects and a payment system.
+ * Author: Najy Fannoun
+ * Developed By: Najy Fannoun
+ * Version: 1.0.0
+ * Date: April 2025
+ * Copyright: © 2025 Najy Fannoun. All rights reserved.
+ */
+
+  .login-page {
+    height: 100vh;
+    background: url('../../assets/images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .three-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+  }
+  
+  .login-box {
+    z-index: 2; 
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px 35px;
+    border-radius: 15px; 
+    text-align: center;
+    width: 350px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); 
+  }
+  
+  h1 {
+    color: #00ffff;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 600; 
+  }
+  
+  p {
+    color: #aaa;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 8px; 
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #00ffff;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00ffff;
+    border: none;
+    border-radius: 8px; 
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #00ccff;
+    transform: translateY(-2px); 
+  }
+  
+  .switch-btn {
+    margin-top: 15px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .switch-btn:hover {
+    color: #00ffff;
+  }
+  
+  @media (max-width: 480px) {
+    .login-box {
+      width: 90%;
+      padding: 25px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    input {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    button {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  

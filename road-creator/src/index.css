@@ -1,0 +1,23 @@
+/**
+ * Project: 3D Map Generator
+ * Description: A web app for creating and exporting 3D maps with customizable objects and a payment system.
+ * Author: Najy Fannoun
+ * Developed By: Najy Fannoun
+ * Version: 1.0.0
+ * Date: April 2025
+ * Copyright: © 2025 Najy Fannoun. All rights reserved.
+ */
+ 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
